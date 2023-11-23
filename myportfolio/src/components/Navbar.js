@@ -16,12 +16,7 @@ const links = [
         to: '/about',
         active: 'about'
     },
-    {
-        name: info.initials,
-        type: 'initials',
-        to: '/',
-        active: 'home'
-    },
+   
     {
         name: 'Portfolio 💼',
         to: '/portfolio',
@@ -34,8 +29,8 @@ export default function Navbar({darkMode, handleClick}) {
     const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
 
     return (
-        <Box component={'nav'} width={'100%'}>
-            <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
+        <Box component={'nav'} width={'100%'} p={'1rem'}>
+            <Box component={'ul'} display={'flex'} justifyContent={'space-evenly'} alignItems={'center'}
                  gap={{xs: '2rem', md: '8rem'}}
                  textTransform={'capitalize'} fontSize={'1rem'}>
                 {links.map((link, index) => (

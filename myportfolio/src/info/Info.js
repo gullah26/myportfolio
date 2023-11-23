@@ -26,19 +26,18 @@ of what each of the values mean.
 export const info = {
     firstName: "Seun",
     lastName: "Ajetomobi",
-    initials: "Seun", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Full Stack Developer",
+    position: ` ☁️Solution Architect💻`,
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '😊',
-            text: 'fueled by originality'
+            text: 'Powered by constant growth'
         },
         {
             emoji: '🌎',
-            text: 'located in Sweden'
+            text: 'Located in Sweden'
         },
         {
             emoji: "🏢",
@@ -55,11 +54,7 @@ export const info = {
             icon: 'fa fa-facebook',
             label: 'facebook'
         },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
+
         {
             link: "https://github.com/gullah26",
             icon: "fa fa-github",
@@ -70,20 +65,30 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
+        
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello!, I'm a dynamic full stack developer, who merges creativity with technical prowess. Proficient in front-end languages and can seamlessly integrates them with back-end technologies and databases. With a knack for problem-solving, crafting efficient and user-centric web applications is my finesse. I have passion for continuous learning that drives me to explore new frameworks and tools, ensuring top-notch solutions in every project.",
+    bio: "I happen to be a versatile and results-driven Solution Architect, I bring forth a dynamic blend of expertise in architecting comprehensive solutions coupled with hands-on proficiency across the full software development stack. With a passion for innovation and a strategic mindset, I aim to bridge the gap between conceptual design and technical implementation, ensuring seamless and efficient systems that drive business success.",
+    profile: "My career spans over 2 years within the realms of software architecture and development. I possess a robust background in envisioning, designing, and deploying scalable solutions that align with organizational objectives. My ability to navigate complexities while integrating both front-end and back-end development has empowered me to craft holistic and future-ready architectures.", 
+    expertise:
+    { 
+
+       solutionArchitect:[ "As a Solution Architect my specialization is crafting end-to-end solutions, leveraging my in-depth understanding of architectural patterns, system integration, and scalability considerations. This involves designing resilient and adaptable systems that evolve alongside technological advancements."],
+       fullstackDevelopment:[ "Proficient across the entire development stack, I am adept in utilizing a diverse range of programming languages, frameworks, and databases to build robust applications. This includes expertise in both front-end technologies (HTML, CSS, JavaScript, React, Angular) and back-end frameworks (Node.js, Django, Flask)."],
+       cloudTechnology:[ "I have a strong command over cloud platforms such as AWS, Azure, and Google Cloud, employing their services to architect cloud-native solutions, ensuring high availability, and scalability."],
+       problemSolving:[ "My approach revolves around problem-solving through collaboration. I excel in cross-functional teams, effectively communicating complex technical concepts to diverse stakeholders."],
+    
+    
+    }
+    ,
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'django', 'flask', 'jinja'],
-            exposedTo: ['python', 'postgres']
+            cloud: ['Administrator Associate', 'Solutions Architect Expert'],
+            frontend: ['Html5', 'Css3', 'Bootstrap', 'Django', 'Flask', 'Jinja', 'Javascript', 'Reactjs'],
+            backend: ['python', 'postgres', 'mongoDb'],
+            versionControl: ['Git', 'Github']
         }
     ,
     hobbies: [

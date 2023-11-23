@@ -44,9 +44,8 @@ export default function BaseLayout() {
             </Grid>
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
-                    py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>template created with &hearts; by <a href={'/'}>Seun Ajetomobi</a></p>
-                  <p>&copy; 2023</p>
+                    py={'1.5rem'} sx={{opacity: 1}} width={'100%'}>
+                  <p style={{fontSize:'1.5rem'}}> &copy; 2023 </p>
                </Box>
             </Grid>
          </Grid>
